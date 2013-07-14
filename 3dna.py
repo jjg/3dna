@@ -1,12 +1,18 @@
 import sys
 import math
 
+# display usage if arguments are missing
+if len(sys.argv) < 3:
+	print 'usage: 3dna.py <input file> <resolution>'
+
+	sys.exit(0)
+
 # open specified genome file
 filename=sys.argv[1]
 
-# if specified, only process a subset of the file
+# if specified, only process a subset of the file (default to 100)
 chromosome_sample_count = 0
-chromosome_sample_limit = 0
+chromosome_sample_limit = 100
 if len(sys.argv) > 2:
 	chromosome_sample_limit = int(sys.argv[2])
 
