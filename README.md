@@ -15,7 +15,7 @@ Generate a printable 3D model from your genome.
 
 ###BASIC USAGE
 
-Aquire a genome file (if you use 23andme this can be downloaded from their website).  Then run the following command:
+Aquire a genome file (if you use 23andme this can be [downloaded from their website](https://www.23andme.com/you/download/)).  Then run the following command:
 
      python 3dna.py genomefile.txt 100 > genome.scad
 
