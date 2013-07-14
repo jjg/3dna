@@ -19,7 +19,7 @@ Aquire a genome file (if you use 23andme this can be downloaded from their websi
 
      python 3dna.py genomefile.txt 100 > genome.scad
 
-This will generate a model file that can be opened in OpenSCAD.  Open this file, select "Compile and Render" from the "Design" menu, then select "Export as STL" from the "Design" menu and the resulting STL file can be sliced and printed on the 3d printer of your choice.
+This will generate a model file that can be opened in OpenSCAD.  Open this file, select *Design* -> *Compile and Render*, then select *Design* -> *Export as STL* and select a location to save the file.  The STL file can then be sliced and printed on the 3d printer of your choice.
 
 ###DETAILS
 
