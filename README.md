@@ -8,7 +8,7 @@ Generate a printable 3D model from your genome.
 
 ###REQUIREMENTS
 
-*  A chromosome file (3dna was designed using files from 23andme but other sources might be simular?)
+*  A chromosome file (3dna was designed using files from [23andme](https://www.23andme.com) but other sources might be simular?)
 *  Python
 *  OpenSCAD
 *  3D printer (or access to one perhaps?)
