@@ -3,6 +3,9 @@
 
 Generate a printable 3D model from your genome.
 
+![OpenSCAD screenshot](http://wp.me/a2utRQ-rc)
+
+
 ###REQUIREMENTS
 
 *  A chromosome file (3dna was designed using files from 23andme but other sources might be simular?)
