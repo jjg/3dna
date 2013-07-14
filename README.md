@@ -25,7 +25,7 @@ This will generate a model file that can be opened in OpenSCAD.  Open this file,
 
 The first argument to the 3dna.py script is the filename of the genome file to process.  
 
-The second argument is the "resolution" to process.  Processing the entire file results in models that are very large and complex.  This parameter lets you reduce the number of points in the genome file that are analized (currently this truncates the data, a better solution would be to average it).
+The second argument is the "resolution" to process.  Processing the entire file results in models that are very large and complex.  This parameter lets you reduce the number of points in the genome file that are analyzed (currently this truncates the data, a better solution would be to average it).
 
 The output of the script is a 3d model in OpenSCAD format.  Later versions of the script may skip this step and go directly to STL, etc. but this intermediary step was found useful in debugging, and provides the user with an opportunity to tweak the output to better suit their particular printer, etc.
 
