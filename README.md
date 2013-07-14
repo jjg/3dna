@@ -3,7 +3,7 @@
 
 Generate a printable 3D model from your genome.
 
-![OpenSCAD screenshot](http://wp.me/a2utRQ-rc)
+![OpenSCAD screenshot](http://www.gullicksonlaboratories.com/wp-content/uploads/2013/07/Screen-Shot-2013-07-14-at-10.39.19-AM.png)
 
 
 ###REQUIREMENTS
