@@ -79,9 +79,9 @@ for line in gfile:
 			# output last chromosome
 			if current_chromosome != "":
 				print "hull(){"
-				print "cylinder(r=50,h=10);"
-				print "translate(v=[0,0,%d]){" % (int(current_chromosome) * 5)
-				print "linear_extrude(height=%d,center=true,convexity=10){" % (int(current_chromosome) * 5)
+				print "cylinder(r=50,h=20);"
+				print "translate(v=[0,0,%d]){" % (int(current_chromosome) * 10)
+				print "linear_extrude(height=%d,center=true,convexity=10,twist=-100){" % 20 #(int(current_chromosome) * 5)
 				print "polygon(points=%s,paths=[%s]);" % (points, vectors)
 				print "}}}"
 
